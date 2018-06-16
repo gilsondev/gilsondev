@@ -37,7 +37,9 @@ curso [Welcome to the Django](http://welcometothedjango.com.br/).
 Dessa forma, fiz uma live no Youtube abordando o que é o Git, mostrando o que seria um controle de versão descentralizada, e os comandos mais usados durante o desenvolvimento com ele. Então, fica abaixo o vídeo do
 webinário:
 
-{% youtube "https://www.youtube.com/watch?v=ubYaLJDWhSY" %}
+<br>
+<iframe title="YouTube video player" width="800" height="390" src="//www.youtube.com/embed/ubYaLJDWhSY" frameborder="0" allowfullscreen=""></iframe>
+<br>
 
 Procurei abordar tudo que planejei, mas depois de 2 horas precisei pular
 alguns tópicos como
