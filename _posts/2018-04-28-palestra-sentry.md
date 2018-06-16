@@ -46,7 +46,7 @@ Para demonstração criei três projetos com tecnologias distintas:
 
 Abaixo segue o link do repositório com os projetos de exemplo:
 
-https://github.com/gilsondev/sentry-demo
+<div class="github-card" data-github="gilsondev/sentry-demo" data-width="800" data-height="130" data-theme="default"></div>
 
 Quem quiser saber mais da ferramenta, comenta embaixo que podemos preparar um webinário sobre. O que acham?
 
