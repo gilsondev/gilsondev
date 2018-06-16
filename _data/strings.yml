@@ -11,39 +11,39 @@
 # Free version
 # ---------------------------------------------------------------------------------------
 home:                  Home
-pages:                 Pages
+pages:                 Páginas
 posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
+about:                 Sobre
+related_posts:         Posts Relacionados
+other_projects:        Outros Projetos
+comments:              Comentários
+jump_to:               Pular para
+navigation:            Naveração
 social:                Social
 links:                 Links
-pagination:            Pagination
-newer:                 Newer
-older:                 Older
-back:                  Back
+pagination:            Paginação
+newer:                 Novo
+older:                 Antigo
+back:                  Voltar
 templates:             Templates (for web app)
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               Carregando...
+redirecting:           Redirecionando...
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  Continue lendo <!--post_title-->
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: Página não encontrada'
   message:             |
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
     <!--home_link--> to try finding it again.
-  home_link:           Head back home
+  home_link:           Voltar ao início
 
 error:
-  title:               Error
+  title:               Erro
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    Desculpe, aconteceu um erro enquanto carregava <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
@@ -74,9 +74,9 @@ tinyletter:
   title:               Newsletter
   label:               Email
   placeholder:         mail@example.com
-  button:              Subscribe
+  button:              Inscreva-se
   message:             |
-    Subscribe to my newsletter.
+    Se inscreva no meu newsletter.
     0
     <!--form-->
 
@@ -84,12 +84,12 @@ tinyletter:
     {:.faded}
 
 welcome:
-  selected_projects:   Selected Projects
-  selected_posts:      Selected Posts
-  recent_projects:     Recent Projects
-  recent_posts:        Recent Posts
-  more_projects:       See <!--projects_title--> for more
-  more_posts:          See <!--posts_title--> for more
+  selected_projects:   Projetos selecionados
+  selected_posts:      Posts selecionados
+  recent_projects:     Projetos recentes
+  recent_posts:        Posts recentes
+  more_projects:       Veja <!--projects_title--> para mais detalhes
+  more_posts:          Veja <!--posts_title--> para mais detalhes
 
 resume:
   location:            Location

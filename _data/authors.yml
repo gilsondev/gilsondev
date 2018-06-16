@@ -3,33 +3,35 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Gilson Filho
+  email:             me@gilsondev.in
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
+    Desenvolvedor há 9 anos, trabalha com criação de sistemas web e mineração de dados.
+    Trabalhou com tecnologias como ASP, Java, PHP e atualmente em Python.
+    Entusiasta em Metodologias Ágeis, Vim e Software Livre, contribui com 
+    projetos como Meu Candidato, Procult da Secretaria de Cultura do DF. 
+    Atualmente trabalha na ENAP como desenvolvedor sênior, com o objetivo de 
+    manter e evoluir o sistema de gestão acadêmica SUAP e outros sistemas da escola.
 
   # This photo will be used in the about section.
   picture:
-    path:            https://placehold.it/128x128
+    path:            https://secure.gravatar.com/avatar/054d9fa364a9f7db6985df0645b21b42?s=512
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            https://secure.gravatar.com/avatar/054d9fa364a9f7db6985df0645b21b42?s=128
+      2x:            https://secure.gravatar.com/avatar/054d9fa364a9f7db6985df0645b21b42?s=256
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         <username>
-    github:          <username>
-    download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    # email:           mailto:<mail@domain.tld>
+    twitter:         gilsonfilho
+    telegram:        gilsondev
+    github:          gilsondev
+    email:           mailto:me@gilsondev.in
+    linkedin:        gilsondev
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -64,24 +66,3 @@ author1:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-
-# Another author
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
-
-  # Every author can have his/her own accent color and image.
-  # This will change the appearance of all pages of this author.
-  accent_color:      '#268bd2'
-  accent_image:
-    background:      '#202020'
-    overlay:         false

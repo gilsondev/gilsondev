@@ -35,6 +35,7 @@
   telegram:
     name: Telegram
     icon: icon-telegram
+    prepend: "https://t.me/"
   twitter:
     name: Twitter
     icon: icon-twitter
@@ -106,6 +107,11 @@
     name: GitHub
     icon: icon-github
     prepend: "https://github.com/"
+  gitlab:
+    name: Gitlab
+    icon: icon-gitlab
+    prepend: "https://gitlab.com/
+    .com/"
   npm:
     name: npm
     icon: icon-npm
