@@ -11,7 +11,7 @@ title: Palestra sobre Sentry no FLISOL-DF 2018
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/img/default.jpg
+image: /assets/img/posts/palestra-sentry/cover.png
 
 comments: true
 
