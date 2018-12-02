@@ -11,7 +11,7 @@ title: Automatizando seu fluxo de trabalho com Airflow
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/default.jpg
+image: /assets/img/default.jpg
 
 comments: true
 

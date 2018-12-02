@@ -11,7 +11,7 @@ title: Criando testes de unmanaged models no Django
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/default.jpg
+image: /assets/img/default.jpg
 
 comments: true
 
