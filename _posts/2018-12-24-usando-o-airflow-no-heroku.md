@@ -11,7 +11,7 @@ title: Usando o Airflow no Heroku
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/img/posts/airflow-heroku/cover.jpg
+image: /assets/img/posts/airflow-heroku/cover.png
 
 comments: true
 
