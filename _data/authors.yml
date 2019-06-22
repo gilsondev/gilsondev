@@ -9,12 +9,12 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Desenvolvedor há 9 anos, trabalha com criação de sistemas web e mineração de dados.
-    Trabalhou com tecnologias como ASP, Java, PHP e atualmente em Python.
+    Desenvolvedor há 10 anos, trabalha com criação de sistemas web e mineração de dados.
+    Trabalhou com tecnologias como ASP, Java, PHP e atualmente em Python e Scala, na área de Engenharia de Dados.
     Entusiasta em Metodologias Ágeis, Vim e Software Livre, contribui com 
     projetos como Meu Candidato, Procult da Secretaria de Cultura do DF. 
-    Atualmente trabalha na ENAP como desenvolvedor sênior, com o objetivo de 
-    manter e evoluir o sistema de gestão acadêmica SUAP e outros sistemas da escola.
+    Atualmente trabalha no Banco do Brasil como Desenvolvedor e Engenheiro de Dados, com o objetivo de 
+    manter e evoluir sistema de analytics para monitoramento das soluções do Banco.
 
   # This photo will be used in the about section.
   picture:
