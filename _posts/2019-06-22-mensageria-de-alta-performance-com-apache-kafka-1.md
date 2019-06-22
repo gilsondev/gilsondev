@@ -7,9 +7,9 @@ title: "Mensageria de Alta Performance com Apache Kafka #1"
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
-description: >
-Nesse primeiro post da série, vamos trazer uma abordagem geral do
-Apache Kafka, sua instalação e configuração, e entender os conceitos básicos de como ele funciona.
+# description: >
+# Nesse primeiro post da série, vamos trazer uma abordagem geral do
+# Apache Kafka, sua instalação e configuração, e entender os conceitos básicos de como ele funciona.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -34,15 +34,13 @@ tags:
     data science,
     mensageria,
     kafka,
-    pubsub
+    pubsub,
   ]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-Olá pessoal,
-
-Atualmente tenho entrado na área de Ciência de Dados diante do projeto que estou trabalhando no Banco do Brasil, e a partir dessa série pretendo trazer os conhecimentos adquiridos em uma ferramenta que atua como barramento de um grande volume de mensagens, e hoje iremos falar sobre o Apache Kafka.
+Olá pessoal, atualmente tenho entrado na área de Ciência de Dados diante do projeto que estou trabalhando no Banco do Brasil, e a partir dessa série pretendo trazer os conhecimentos adquiridos em uma ferramenta que atua como barramento de um grande volume de mensagens, e hoje iremos falar sobre o Apache Kafka.
 
 ### O que é o Apache Kafka?
 

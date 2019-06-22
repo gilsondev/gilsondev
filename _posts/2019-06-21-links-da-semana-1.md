@@ -39,9 +39,7 @@ tags:
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-Olá pessoal,
-
-Essa é o primeiro de uma série de posts, com o objetivo de compartilhar links de posts, projetos, palestra, entre outras informações relevantes.
+Olá pessoal, esse é o primeiro de uma série de posts, com o objetivo de compartilhar links de posts, projetos, palestra, entre outras informações relevantes em qualquer ãrea.
 
 ### [Professional Programming](https://github.com/charlax/professional-programming)
 
