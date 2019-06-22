@@ -79,28 +79,34 @@ O Kafka precisa do [Apache Zookeeper](https://zookeeper.apache.org/) para coorde
 
 - Faça o [download](https://kafka.apache.org/downloads) do Apache Kafka e descompacte no diretório desejado. No nosso caso tanto o Zookeeper como o Kafka estará no _/opt_:
 
-  $ cd /opt
-    $ wget https://www-eu.apache.org/dist/kafka/2.2.1/kafka_2.11-2.2.1.tgz
-  $ tar -zxvf kafka_2.11-2.2.1.tgz
-    $ mv kafka_2.11-2.2.1 kafka
+```shell
+$ cd /opt
+$ wget https://www-eu.apache.org/dist/kafka/2.2.1/kafka_2.11-2.2.1.tgz
+$ tar -zxvf kafka_2.11-2.2.1.tgz
+$ mv kafka_2.11-2.2.1 kafka
+```
 
 - Inicie o servidor Zookeeper caso não tenha feito, e após isso inicie o servidor do Kafka:
 
-  # Iniciando Zookeeper
+```shell
+# Iniciando Zookeeper
 
-  $ cd /opt/zookeeper
-    $ ./bin/zkServer.sh start
+$ cd /opt/zookeeper
+$ ./bin/zkServer.sh start
 
-  # Iniciando Kafka
+# Iniciando Kafka
 
-  $ cd /opt/kafka
-    $ ./bin/kafka-server-start.sh config/server.properties
+$ cd /opt/kafka
+$ ./bin/kafka-server-start.sh config/server.properties
+```
 
 Para confirmar se estão de pé, verifique se na sua máquina tem as seguintes portas abaixo:
 
-    $ netstat -tlpn | grep -E "2181|9092"
-    tcp6       0      0 :::9092                 :::*                    OUÇA       6531/java
-    tcp6       0      0 :::2181                 :::*                    OUÇA       6498/java
+```shell
+$ netstat -tlpn | grep -E "2181|9092"
+tcp6       0      0 :::9092                 :::*                    OUÇA       6531/java
+tcp6       0      0 :::2181                 :::*                    OUÇA       6498/java
+```
 
 A porta 2181 é do Apache Zookeeper e o 9092 é a porta padrão do Apache Kafka.
 
@@ -125,6 +131,6 @@ A comunicação entre os clientes e servidores é feito de forma simples e com a
 
 Fonte: [https://kafka.apache.org/intro](https://kafka.apache.org/intro)
 
-No próximo post, vamos falar mais sobre os tópicos e qual é a idéia das partições no Kafka. Além disso vou mostrar como podemos criar, alterar e remover tótpicos, como também atuar na ação de publicar e consumir mensagens de um tópico, e como fazemos com que mais de um consumer possa acessar o tópico sem buscar dados duplicados, por meio de \*consumer group**.\***
+No próximo post, vamos falar mais sobre os tópicos e qual é a idéia das partições no Kafka. Além disso vou mostrar como podemos criar, alterar e remover tótpicos, como também atuar na ação de publicar e consumir mensagens de um tópico, e como fazemos com que mais de um consumer possa acessar o tópico sem buscar dados duplicados, por meio de _consumer group_.
 
 Até mais! ;)
