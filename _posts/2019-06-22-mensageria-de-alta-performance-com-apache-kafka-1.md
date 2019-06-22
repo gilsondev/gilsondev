@@ -120,7 +120,7 @@ Ele possui alguns conceitos que são relevantes saber:
 
 Ele é composto por quatro APIs:
 
-- O [**Producer API**](https://kafka.apache.org/documentation.html#producerapi)\*\* faz com que uma aplicação possa publicar um fluxo de registros para um ou mais tópicos Kafka
+- O [**Producer API**](https://kafka.apache.org/documentation.html#producerapi) faz com que uma aplicação possa publicar um fluxo de registros para um ou mais tópicos Kafka
 - O [**Consumer API**](https://kafka.apache.org/documentation.html#consumerapi) faz com que a aplicação possa assinar um ou mais tópicos e processar o fluxo de registros produzidos por alguém.
 - O [**Streams API**](https://kafka.apache.org/documentation/streams) faz com que a aplicação possa atuar como um _stream processor_, consumindo um fluxo de entrada (_input stream_) de um ou mais tópicos e produzir um fluxo de saída (_output stream_) para um ou mais tópicos, transformando de forma eficiente.
 - O [**Connector API**](https://kafka.apache.org/documentation.html#connect) permite construir e executar _producers_ ou _consumers_ reutilizáveis que conecta tópicos a aplicativos ou sistemas de dados existentes. Por exemplo, um conector para um banco relacional captura cada mudança de uma tabela.
