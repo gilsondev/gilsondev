@@ -143,7 +143,7 @@ sql_alchemy_conn = postgresql+psycopg2://postgres:postgres@localhost:5432/airflo
 executor = LocalExecutor
 
 # ...
-fernet_key = $(python "contrib/generage_fernet_key.py")
+fernet_key = $(python "contrib/generate_fernet_key.py")
 ```
 
 Dessa forma o Airflow irá usar o banco PostgreSQL para armazenar os metadados das DAGs e suas execuções como o também o seu scheduler.
